@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Career Chatbot
 
-## Getting Started
+An AI-powered chatbot that helps users explore career paths, get personalized guidance, and answer career-related queries.
 
-First, run the development server:
+🚀 Live Demo
 
-```bash
+Check out the live application here:
+Live URL - [https://career-chatbot-navy.vercel.app]
+
+🧩 Features
+
+Personalized career guidance based on user input
+
+Resume analysis with feedback
+
+Job market insights and trends
+
+Interview preparation tips and mock questions
+
+Resource recommendations for skill enhancement
+
+🛠️ Tech Stack
+
+Frontend: React, Vercel
+Backend: Node.js, Express, Render
+AI Integration: OpenAI API
+
+📂 Repository Links
+Frontend
+
+Repository: https://github.com/Sarth-dev/CareerChatbot
+
+Deployment: Vercel
+
+Setup Instructions:
+
+# Clone the frontend repo
+git clone https://github.com/Sarth-dev/CareerChatbot.git
+cd CareerChatbot
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The frontend will be available at http://localhost:3000
+.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Backend
 
-## Learn More
+Repository: https://github.com/Sarth-dev/Chatbotbackend
 
-To learn more about Next.js, take a look at the following resources:
+Deployment: Render
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Setup Instructions:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Clone the backend repo
+git clone https://github.com/Sarth-dev/Chatbotbackend.git
+cd Chatbotbackend
 
-## Deploy on Vercel
+# Install dependencies
+npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Create .env file with your API keys
+OPENAI_API_KEY=your_openai_api_key
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Start backend server
+npm run dev
+
+
+The API will be available at http://localhost:5000
+.
+
+📸 Screenshots
+1. Chat
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/0841a47f-7f76-410c-a5e5-8ec8deb976e9" />
+
+2. Add Session
+<img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/5e5e4982-9fc9-41f1-8b52-ae245d0598f7" />
+
