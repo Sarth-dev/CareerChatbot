@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import React, { useState, useEffect, useRef } from "react";
@@ -16,7 +17,7 @@ type Session = {
   createdAt: string;
 };
 
-const BACKEND_URL = process.env.API_URL || 'http://localhost:4000';
+const BACKEND_URL = process.env.API_URL || 'https://chatbotbackend-4ve7.onrender.com';
 const USER_ID = 1234;
 const PAGE_SIZE = 10;
 
