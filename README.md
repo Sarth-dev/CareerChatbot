@@ -11,8 +11,6 @@ Live URL - [https://career-chatbot-navy.vercel.app]
 
 Personalized career guidance based on user input
 
-Resume analysis with feedback
-
 Job market insights and trends
 
 Interview preparation tips and mock questions
