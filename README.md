@@ -29,7 +29,7 @@ Backend: Node.js, Express, Render
 
 Database: Integrated with proper schema
 
-AI Integration: OpenAI API
+AI Integration: Cohere API
 
 tRPC & TanStack Query: Implemented for frontend-backend communication
 
